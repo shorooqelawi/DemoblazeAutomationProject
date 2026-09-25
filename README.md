@@ -45,7 +45,7 @@ src/test/java
     └── TestListener
 
 
-🧪 Test Coverage
+## 🧪 Test Coverage
 
 The automation suite covers multiple Demoblaze functionalities:
 
@@ -59,7 +59,7 @@ Contact Functionality
 About Functionality
 
 
-⚙️ Framework Features
+# ⚙️ Framework Features
 Page Object Model (POM)
 TestNG-based test execution
 Test priorities and descriptions
