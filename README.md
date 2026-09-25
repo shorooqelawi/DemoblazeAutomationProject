@@ -2,51 +2,44 @@
 
 Web UI automation testing project for the [Demoblaze](https://www.demoblaze.com/) e-commerce application using Selenium WebDriver, Java, TestNG, and Maven.
 
-## 🛠️ Technologies
-
+## Technologies
 - Java
 - Selenium WebDriver
 - TestNG
 - Maven
 - ExtentReports
 
-## 📂 Project Structure
+## Project Structure
+- src/test/java
+  - Pages
+    - AboutPage
+    - CartPage
+    - CheckoutPage
+    - ContactPage
+    - HomePage
+    - LoginPage
+    - ProductPage
+    - SignUpPage
+  - Tests
+    - AboutTest
+    - CartTest
+    - CheckoutTest
+    - ContactTest
+    - LoginTest
+    - ProductTest
+    - SignUpTest
+  - Utilities
+    - AnnotationTransformer
+    - DataGenerator
+    - ExtentManager
+    - JSONReader
+    - RetryAnalyzer
+    - SessionData
+    - TestBase
+    - TestListener
 
-```text
-src/test/java
-├── Pages
-│   ├── AboutPage
-│   ├── CartPage
-│   ├── CheckoutPage
-│   ├── ContactPage
-│   ├── HomePage
-│   ├── LoginPage
-│   ├── ProductPage
-│   └── SignUpPage
-│
-├── Tests
-│   ├── AboutTest
-│   ├── CartTest
-│   ├── CheckoutTest
-│   ├── ContactTest
-│   ├── LoginTest
-│   ├── ProductTest
-│   └── SignUpTest
-│
-└── Utilities
-    ├── AnnotationTransformer
-    ├── DataGenerator
-    ├── ExtentManager
-    ├── JSONReader
-    ├── RetryAnalyzer
-    ├── SessionData
-    ├── TestBase
-    └── TestListener
-
-## 🧪 Test Coverage
-
+## Test Coverage
 The automation suite covers multiple Demoblaze functionalities:
-
 - User Sign Up
 - User Login
 - Input Validation
@@ -56,8 +49,7 @@ The automation suite covers multiple Demoblaze functionalities:
 - Contact Functionality
 - About Functionality
 
-## ⚙️ Framework Features
-
+## Framework Features
 - Page Object Model (POM)
 - TestNG-based test execution
 - Test priorities and descriptions
@@ -70,12 +62,9 @@ The automation suite covers multiple Demoblaze functionalities:
 - Session data management
 - ExtentReports integration
 
-## 📊 Test Reporting
-
+## Test Reporting
 The project uses ExtentReports to generate detailed HTML automation test reports.
-
 The report includes:
-
 - Overall test execution summary
 - Passed, failed, and skipped tests
 - Individual test details
@@ -88,9 +77,7 @@ The report includes:
 - Dashboard with execution statistics
 
 ### Sample Execution
-
 A sample test execution included:
-
 | Result | Count |
 | :--- | :--- |
 | Total Tests | 19 |
@@ -98,32 +85,25 @@ A sample test execution included:
 | Failed | 1 |
 | Skipped | 3 |
 
-**Test Environment**
+Test Environment
+- Environment: QA
+- Browser: Chrome
+- Operating System: Windows 11
 
-- **Environment:** QA
-- **Browser:** Chrome
-- **Operating System:** Windows 11
-
-## 📸 Failure Screenshots
-
+## Failure Screenshots
 The framework captures screenshots for failed test scenarios to support failure investigation and debugging.
-
 Screenshots are stored in the `Screenshots` directory.
 
-## ▶️ How to Run
-
+## How to Run
 1. Clone the repository.
 2. Open the project in IntelliJ IDEA.
 3. Install Maven dependencies.
 4. Run the TestNG suite using `RUN.xml`.
 5. Open the generated ExtentReport to review the test execution results.
 
-## 📂 Reports
-
+## Reports
 The project includes generated test reports under the `reports` directory, including the ExtentReports HTML report.
 
-## 👩‍💻 Author
-
-**Shorooq Elawi**
-
+## Author
+Shorooq Elawi
 QA Engineer | Manual & Automation Testing
